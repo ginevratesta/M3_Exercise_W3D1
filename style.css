@@ -86,3 +86,24 @@ nav img {
 main{
     background-color: #F5F4F8;
 }
+
+.card-user{
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: lightgray;
+}
+
+.card-user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.card-user {
+    color: lightgray;
+}
+
+.old-cost{
+    text-decoration: line-through;
+    color: lightgray;
+}
