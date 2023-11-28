@@ -3,10 +3,41 @@
 }
 
 
+nav img{
+    border-radius: 50%;
+}
+
 .nav-icon{
     width: 40px;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    overflow: hidden;
+    color: gray;
 }
   
+.purple-dot{
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    width: 11px;
+    background-color: #754EF6;
+    top: 1px;
+    right: 5px;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+}
+
+.green-dot{
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    width: 11px;
+    background-color: #5AC896;
+    bottom: 0px;
+    right: 3px;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+}
+
+.jumbotron{
+    background-color: #754EF6;
+}
