@@ -2,7 +2,6 @@
     background-color: white!important;
 }
 
-
 nav img{
     border-radius: 50%;
 }
@@ -63,4 +62,24 @@ nav img{
 
 .btn.btn-warning{
     background-color: rgb(255,255,255,1);
+}
+
+.under-jumbo{
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.under-jumbo-icon{
+ width: 60px;
+ aspect-ratio: 1/1;
+ border-radius: 50%;
+ background-color: #FDEDDA;
+ margin-block: 10px;
+ color: #947755;
+ font-size: 20px;
+}
+
+.under-jumbo p{
+    color: gray;
 }
