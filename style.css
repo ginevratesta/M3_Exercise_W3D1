@@ -1,85 +1,88 @@
-.bg-body-tertiary{
-    background-color: white!important;
+.bg-body-tertiary {
+  background-color: white !important;
 }
 
-nav img{
-    border-radius: 50%;
+nav img {
+  border-radius: 50%;
 }
 
-.nav-icon{
-    width: 40px;
-    aspect-ratio: 1/1;
-    border-radius: 50%;
-    color: gray;
-}
-  
-.purple-dot{
-    aspect-ratio: 1/1;
-    border-radius: 50%;
-    width: 11px;
-    background-color: #754EF6;
-    top: 1px;
-    right: 5px;
-    border-width: 2px;
-    border-color: white;
-    border-style: solid;
+.nav-icon {
+  width: 40px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  color: gray;
 }
 
-.green-dot{
-    aspect-ratio: 1/1;
-    border-radius: 50%;
-    width: 11px;
-    background-color: #5AC896;
-    bottom: 0px;
-    right: 3px;
-    border-width: 2px;
-    border-color: white;
-    border-style: solid;
+.purple-dot {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  width: 11px;
+  background-color: #754ef6;
+  top: 1px;
+  right: 5px;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
 }
 
-.jumbotron{
-    background-color: #754EF6;
+.green-dot {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  width: 11px;
+  background-color: #5ac896;
+  bottom: 0px;
+  right: 3px;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
 }
 
-.jumbotron .row p{
-    color: lightgray;
+.jumbotron {
+  background-color: #754ef6;
 }
 
-.jumbotron img{
-    object-fit: cover;
+.jumbotron .row p {
+  color: lightgray;
 }
 
-.button-style{
-    font-size: 14px;
-    border: none;
-    padding-block: 12px;
+.jumbotron img {
+  object-fit: cover;
 }
 
-.btn.btn-primary{
-   background-color:  #5AC896;
-   border: none;
+.button-style {
+  font-size: 14px;
+  border: none;
+  padding-block: 12px;
 }
 
-.btn.btn-warning{
-    background-color: rgb(255,255,255,1);
+.btn.btn-primary {
+  background-color: #5ac896;
+  border: none;
 }
 
-.under-jumbo{
-    border-bottom-color: lightgray;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
+.btn.btn-warning {
+  background-color: rgb(255, 255, 255, 1);
 }
 
-.under-jumbo-icon{
- width: 60px;
- aspect-ratio: 1/1;
- border-radius: 50%;
- background-color: #FDEDDA;
- margin-block: 10px;
- color: #947755;
- font-size: 20px;
+.under-jumbo {
+  border-bottom-color: #F5F4F8;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
 }
 
-.under-jumbo p{
-    color: gray;
+.under-jumbo-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fdedda;
+  color: #947755;
+  font-size: 20px;
+}
+
+.under-jumbo p {
+  color: gray;
+}
+
+main{
+    background-color: #F5F4F8;
 }
