@@ -65,9 +65,7 @@ nav img {
 }
 
 .under-jumbo {
-  border-bottom-color: #F5F4F8;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
+  
 }
 
 .under-jumbo-icon {
@@ -94,8 +92,8 @@ main{
 }
 
 .card-user img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
 
@@ -106,4 +104,10 @@ main{
 .old-cost{
     text-decoration: line-through;
     color: lightgray;
+}
+
+.border-footer{
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: lightgray;
 }
