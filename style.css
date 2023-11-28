@@ -41,3 +41,26 @@ nav img{
 .jumbotron{
     background-color: #754EF6;
 }
+
+.jumbotron .row p{
+    color: lightgray;
+}
+
+.jumbotron img{
+    object-fit: cover;
+}
+
+.button-style{
+    font-size: 14px;
+    border: none;
+    padding-block: 12px;
+}
+
+.btn.btn-primary{
+   background-color:  #5AC896;
+   border: none;
+}
+
+.btn.btn-warning{
+    background-color: rgb(255,255,255,1);
+}
