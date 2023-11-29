@@ -18,6 +18,26 @@ nav img {
   padding: 0; 
 }
 
+.dropdown-menu img{
+  width: 40px;
+  height: 40px;
+  
+}
+
+.green-dot2{
+  bottom: 5px;
+  left: 30px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  width: 11px;
+  background-color: #5ac896;
+  bottom: 0px;
+  right: 3px;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+}
+
 .purple-dot {
   aspect-ratio: 1/1;
   border-radius: 50%;
