@@ -64,11 +64,6 @@ nav img {
   background-color: rgb(255, 255, 255, 1);
 }
 
-/*
-.under-jumbo {
-}
-*/
-
 .under-jumbo-icon {
   width: 50px;
   height: 50px;
@@ -90,6 +85,10 @@ main{
     border-top-style: solid;
     border-top-width: 1px;
     border-top-color: lightgray;
+}
+
+.card.h-100{
+    height: 200px;
 }
 
 .card-user img{
