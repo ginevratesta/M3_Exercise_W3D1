@@ -11,6 +11,11 @@ nav img {
   aspect-ratio: 1/1;
   border-radius: 50%;
   color: gray;
+  border: none;
+}
+
+.btn {
+  padding: 0; 
 }
 
 .purple-dot {

@@ -160,29 +160,36 @@
           </ul>
         </div>
         <div class="d-flex justify-content-end gap-2">
-          <div class="nav-icon d-flex justify-content-center align-items-center bg-light position-relative">
-            <ion-icon
-              name="notifications-outline"
-            ></ion-icon>
-            <div class="position-absolute purple-dot"></div>
-          </div>
-          <div class="nav-icon position-relative">
-              <img src="./assets/avatar-1.jpg" alt="user pic" class="w-100 h-100" />
-            <div class="position-absolute green-dot"></div>
-          </div>
+            <div class="nav-icon d-flex justify-content-center align-items-center bg-light position-relative">
+              <ion-icon name="notifications-outline"></ion-icon>
+              <div class="position-absolute purple-dot"></div>
+            </div>
           
-        <button
-          class="navbar-toggler bg-white"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
+            <div class="dropdown">
+              <button class="btn nav-icon position-relative" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./assets/avatar-1.jpg" alt="user pic" class="w-100 h-100" />
+                <div class="position-absolute green-dot"></div>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Logout</a></li>
+              </ul>
+            </div>
+            <button
+            class="navbar-toggler bg-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
         </button>
-      </div>
+    </div>
+</div>
     </nav>
 
     <div class="jumbotron">
