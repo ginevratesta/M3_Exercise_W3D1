@@ -140,3 +140,8 @@ main {
   margin-top: 7px;
   text-align: center;
 }
+
+footer{
+  font-size: 15px;
+  color: gray;
+}
