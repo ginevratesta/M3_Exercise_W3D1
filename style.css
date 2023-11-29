@@ -77,51 +77,51 @@ nav img {
   color: gray;
 }
 
-main{
-    background-color: #F5F4F8;
-}
-
-.card-user{
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-top-color: lightgray;
-}
-
-.card.h-100{
-    height: 200px;
-}
-
-.card-user img{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+main {
+  background-color: #f5f4f8;
 }
 
 .card-user {
-    color: lightgray;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: lightgray;
 }
 
-.old-cost{
-    text-decoration: line-through;
-    color: lightgray;
+.card.h-100 {
+  height: 200px;
 }
 
-.border-footer{
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-top-color: lightgray;
+.card-user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
-.bright{
-    color: yellow;
+.card-user {
+  color: lightgray;
 }
 
-.gray{
-    color: lightgray;
+.old-cost {
+  text-decoration: line-through;
+  color: lightgray;
 }
 
-.blue{
-    color: blue;
+.border-footer {
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: lightgray;
+}
+
+.bright {
+  color: yellow;
+}
+
+.gray {
+  color: lightgray;
+}
+
+.blue {
+  color: blue;
 }
 
 .carousel-control-prev,
@@ -134,11 +134,9 @@ main{
   margin-top: 200px;
 }
 
-
-.arrow{
-    color: gray;
-    width: 30px;
-    margin-top: 7px;
-    text-align: center;
+.arrow {
+  color: gray;
+  width: 30px;
+  margin-top: 7px;
+  text-align: center;
 }
-
