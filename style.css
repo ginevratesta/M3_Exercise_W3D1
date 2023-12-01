@@ -172,6 +172,15 @@ footer{
 }
 
 
+
+
+.card .card-user ion-icon{
+  fill:none;
+  stroke: lightgrey;
+  stroke-width: 5%;
+}
+
 .card:hover .card-user ion-icon {
-  color: red;
+  fill: lightgrey;
+
 }
