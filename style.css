@@ -24,8 +24,17 @@ nav img {
   
 }
 
+#drop-down-user{
+  width: 250px;
+}
+
+#user-info{
+  padding: 5px 10px;
+  border-bottom: 1px solid lightgrey;
+}
+
 .green-dot2{
-  bottom: 5px;
+  top: 30px;
   left: 30px;
   aspect-ratio: 1/1;
   border-radius: 50%;
@@ -170,9 +179,6 @@ footer{
   font-size: 15px;
   color: gray;
 }
-
-
-
 
 .card .card-user ion-icon{
   fill:none;

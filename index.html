@@ -170,14 +170,22 @@
                 <img src="./assets/avatar-1.jpg" alt="user pic" class="w-100 h-100" />
                 <div class="position-absolute green-dot"></div>
               </button>
-              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-                <li><div class="position-relative">
+              <ul id="drop-down-user" class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                <li>
+                    <div id="user-info" class="d-flex">
+                    <div class="position-relative">
                     <img src="./assets/avatar-1.jpg" alt="user pic"/>
-                <div class="position-absolute green-dot"></div>
-                </div></li>
-                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <div class="position-absolute green-dot2"></div>
+                </div>
+                <div class="ps-3 d-flex flex-column ">
+                    <span>Annette Black</span>
+                    <span class="gray">annette@geeksui.com</span>
+                </div>
+            </div>
+            </li>
+                <li><a class="dropdown-item">Settings</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Logout</a></li>
+                <li ><a class="d-flex align-items-center dropdown-item gap-2"><ion-icon name="power-outline"></ion-icon> <span>Sign Out</span></a></li>
               </ul>
             </div>
             <button
