@@ -170,3 +170,8 @@ footer{
   font-size: 15px;
   color: gray;
 }
+
+
+.card:hover .card-user ion-icon {
+  color: red;
+}
